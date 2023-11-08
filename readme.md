@@ -1,4 +1,4 @@
-=== Mixed Number Calculator by Calculator.iO ===
+# Mixed Number Calculator by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Mixed number calculator is designed to help you add, subtract, multiply, and divide mixed numbers. Mixed Fractions Calculator is created for performing mathematical operations on mixed numbers.
 
-== Description ==
+## Description
 
 Mixed number calculator is designed to help you add, subtract, multiply, and divide mixed numbers. Mixed Fractions Calculator is created for performing mathematical operations on mixed numbers.
 
-__Shortcode__
+### Shortcode
 
 Use the Mixed Number Calculator shortcode:
 
@@ -27,21 +27,21 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_mixed_number_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Mixed Number Calculator](https://www.calculator.io/mixed-number-calculator/ "Mixed Number Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_mixed_number_calculator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Mixed Number Calculator to the sidebar through the `Appearance -> Widgets -> Mixed Number Calculator` menu in WordPress.
 * Add the following code: `<?php display_ci_mixed_number_calculator(); ?>` to your template where you would like the Mixed Number Calculator to appear.
 
-== Screenshots ==
+## Screenshots
 1. The Mixed Number Calculator Input Form.
 2. The Mixed Number Calculator Calculation Results.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
