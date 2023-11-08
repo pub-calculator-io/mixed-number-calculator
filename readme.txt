@@ -33,8 +33,7 @@ Libraries in use:
 2. Activate the [Mixed Number Calculator](https://www.calculator.io/mixed-number-calculator/ "Mixed Number Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 == Usage ==
-* Add the shortcode `[ci_mixed_number_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Mixed Number Calculator to the sidebar through the `Appearance -> Widgets -> Mixed Number Calculator` menu in WordPress.
+* Add the shortcode `[ci_mixed_number_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_mixed_number_calculator(); ?>` to your template where you would like the Mixed Number Calculator to appear.
 
 == Screenshots ==
