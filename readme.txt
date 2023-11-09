@@ -13,6 +13,8 @@ Mixed number calculator is designed to help you add, subtract, multiply, and div
 
 Mixed number calculator is designed to help you add, subtract, multiply, and divide mixed numbers. Mixed Fractions Calculator is created for performing mathematical operations on mixed numbers.
 
+[Mixed Number Calculator Homepage](https://www.calculator.io/mixed-number-calculator/ "Mixed Number Calculator Homepage")
+
 __Shortcode__
 
 Use the Mixed Number Calculator shortcode:
