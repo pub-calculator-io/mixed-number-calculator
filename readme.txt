@@ -1,6 +1,6 @@
 === Mixed Number Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: mixed number calculator, mixed fraction calculator, mixed number to improper fraction calculator, mixed fraction to improper fraction calculator, mixed numeral calculator, mixed fraction simplifier, mixed number addition calculator, mixed number subtraction calculator, mixed number multiplication calculator, mixed number division calculator
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
