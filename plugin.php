@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Mixed Number Calculator by www.calculator.io
+Plugin Name: CI Mixed number calculator
 Plugin URI: https://www.calculator.io/mixed-number-calculator/
 Description: Mixed number calculator is designed to help you add, subtract, multiply, and divide mixed numbers. Mixed Fractions Calculator is created for performing mathematical operations on mixed numbers.
 Version: 1.0.0
