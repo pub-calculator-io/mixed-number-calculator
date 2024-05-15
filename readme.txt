@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Mixed Number Ca
 == Screenshots ==
 
 1. The Mixed Number Calculator Input Form.
-2. The Mixed Number Calculator Calculation Results.
 
 == Installation ==
 

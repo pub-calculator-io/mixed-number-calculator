@@ -4,11 +4,11 @@ function calculate(){
   const optInteger = elementId => input.get(elementId).optional().integer().raw();
   const optNatural = elementId => input.get(elementId).optional().natural().raw();
   const aWhole = optInteger('fraction_a_full');
-  const aNum = optInteger('fraction_a_top');
-  const aDenom = optNatural('fraction_a_bottom');
+  const aNum = optInteger('fraction_a_num');
+  const aDenom = optNatural('fraction_a_denom');
   const bWhole = optInteger('fraction_b_full');
-  const bNum = optInteger('fraction_b_top');
-  const bDenom = optNatural('fraction_b_bottom');
+  const bNum = optInteger('fraction_b_num');
+  const bDenom = optNatural('fraction_b_denom');
   const operation = input.get('math_operation').raw();
   input.silent = false;
   

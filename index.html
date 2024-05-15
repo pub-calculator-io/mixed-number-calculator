@@ -36,8 +36,8 @@
                 					<div class="input-field input-field--mixed row ">
                 						<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input input-field__input--full" placeholder="0" id="fraction_a_full" value="1"  />
                 						<div class="col">
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_top" value="3"  />
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_bottom" value="4"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_num" value="3"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_a_denom" value="4"  />
                 						</div>
                 					</div>
                 				</label>				<div class="fraction-wrapper">
@@ -65,8 +65,8 @@
                 					<div class="input-field input-field--mixed row ">
                 						<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input input-field__input--full" placeholder="0" id="fraction_b_full" value="2"  />
                 						<div class="col">
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_b_top" value="3"  />
-                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_b_bottom" value="8"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_b_num" value="3"  />
+                							<input type="text" oninput="setMaxLength(this, 3)" class="input-field__input" placeholder="0" id="fraction_b_denom" value="8"  />
                 						</div>
                 					</div>
                 				</label>			</div>
@@ -77,14 +77,17 @@
                 		
                 		
                 		
-                			<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                			<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 		</div>
                 		
                 		
-                			<script type="text/javascript" src="./assets/js/fractions.js"></script>
+                			<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 		
                 		
-                			<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                			<script type="text/javascript" src="./assets/js/fractions.js" defer></script>
+                		
+                		
+                			<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 
                 	</div>
                 </div>            </div>
@@ -101,11 +104,10 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<p class="table-cell table-cell--dark table-cell--only-title">Result</p>
-	<div class="table-cell table-cell--fraction row">
+	<div class="table-cell table-cell--fraction row animate">
 		<p class="result-text" id="aWhole">1</p>
 		<div class="col fraction-text" id="aFrac">
 			<p class="result-text text-center" id="aNum">3</p>
